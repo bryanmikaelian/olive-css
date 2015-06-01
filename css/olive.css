@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columns {
+  float: left;
+  padding-right: 20px;
+  box-sizing: border-box;
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.12 {
+	width: 100%;
+}
+
+.11 {
+  	width: 91.53%;
+}
+
+.10 {
+  	width: 83.06%;
+}
+
+.9 {
+  	width: 74.6%;
+}
+
+.8 {
+  	width: 66.13%;
+}
+
+.7 {
+  	width: 57.66%;
+}
+
+.6 {
+  	width: 49.2%;
+}
+
+.5 {
+  	width: 40.73%;
+}
+
+.4 {
+  	width: 32.26%;
+}
+
+.3 {
+  	width: 23.8%;
+}
+
+.2 {
+  	width: 15.33%;
+}
+
+.1 {
+  	width: 6.866%;
+}
